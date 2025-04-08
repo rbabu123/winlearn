@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #83c3ee;
+  --secondary-color: #1a1a1a;
+  --tertiary-color: #f5f5f5;
+  --HEADER_HEIGHT: 55px;
+  --FOOTER_HEIGHT: 48px;
+  --SIDER_WIDTH: 236px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;    /* Ensures it fully fills the viewport */
+}
+
+.typography-title {
+  color: var(--primary-color) !important;
+  font-weight: bold;
+}
+
+/* Remove extra margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

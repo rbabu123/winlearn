@@ -1,0 +1,54 @@
+.add-learning-path-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 90px;
+    margin-left: 200px;
+}
+
+.add-learning-path-widget {
+    width: 360px; /* Reduced width for a more compact layout */
+    padding: 20px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-learning-path-title {
+    text-align: center;
+    margin-bottom: 14px; 
+    font-weight: bold;
+}
+
+.add-learning-path-form .ant-form-item {
+    margin-bottom: 12px; /* Reduced spacing between form items */
+}
+
+.add-learning-path-form .ant-input,
+.add-learning-path-form .ant-input-number {
+    height: 32px; /* Reduced input height */
+    font-size: 14px;
+}
+
+.add-learning-path-form .ant-input-textarea {
+    min-height: 60px; /* Reduced textarea height */
+}
+
+.add-learning-path-form .ant-form-item-label > label {
+    font-size: 13px; /* Smaller labels for compactness */
+}
+
+.add-learning-path-form .ant-space {
+    margin-bottom: 4px; /* Reduced space between dynamic course fields */
+}
+
+.add-learning-path-form .ant-btn {
+    height: 36px; /* Reduced button height */
+}
+
+
+/* Learning path Table */
+.ant-table-tbody > tr:hover > td {
+    background-color: #e6f7ff !important;
+}
+
